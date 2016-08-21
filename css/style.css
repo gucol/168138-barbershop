@@ -1,8 +1,15 @@
 
  body {
+   /*задник для главной:
+    background: url("../img/index.png") no-repeat center top; */
+    /*задник для каталога:  */
+    background: url("../img/catalog.png") no-repeat center top; 
+    /*задник для страницы товара:  
+    background: url("../img/item.png") no-repeat center top; */
+  margin: 0px;
 /* Типографика */
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 20px;
   color: #000; 
   font-family: "PTSans NarrowBold";
   text-transform: uppercase;
@@ -31,3 +38,201 @@
  .white {
  	color: white;
  }
+.container {
+  margin: 0 auto;
+  width: 940px;
+  padding: 0 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*INDEX HEADER*/
+.main-header {
+  margin-bottom: 60px;
+}
+
+.second-header {
+  margin-bottom: 55px;
+}
+
+.logo {
+  min-height: 70px;
+  float: left;
+  width: 115px;
+}
+
+.main-navigation {
+  min-height: 70px;
+  float: left;
+  width: 700px;
+}
+
+li {
+  display: inline-block;
+}
+
+.user-block {
+  min-height: 70px;
+  float: right;
+  width: 85px;
+}
+
+/*INDEX MAIN*/
+.index-logo {
+  min-height: 204px;
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  min-height: 175px;
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  min-height: 315px;
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  min-height: 315px;
+  float: right;
+  width: 300px;
+}
+
+.index-content-title {
+  margin-top: 0px;
+}
+
+.news-preview {
+  padding-left: 0px;
+}
+/*CATALOG*/
+.forms {
+  width: 180px;
+  float: left;
+  
+}
+
+.art-gallery {
+  margin-left: 230px;
+  width: 720px;
+  padding: 45px 10px 10px 10px;
+}
+
+article {
+  min-height: 285px;
+  display: inline-block;
+  width: 220px;
+  margin-right: 18px;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  font-size: 14px;
+}
+
+article:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.art-nav a {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+  margin-right: 5px; 
+}
+
+/*CATALOG-ITEM*/
+.prod-gallery {
+  width: 490px;
+  float: left;
+  padding-top: 50px; 
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.definition {
+  width: 390px;
+  float: right;
+}
+
+.small-gal img {
+  margin-right: 15px;
+}
+
+/*FOOTER*/
+.main-footer {
+ margin-top: 35px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  min-height: 90px;
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  min-height: 90px;
+  float: left;
+  width: 180px; 
+}
+
+.footer-copyright {
+  min-height: 90px;
+  float: right;
+  width: 180px;
+}
+
+/*
+.main-header {outline: 2px dotted red;}
+.second-header {outline: 2px dotted red;}
+.container {outline: 2px solid green;}
+.index-logo {outline: 2px solid yellow;}
+.features-item {outline: 2px dotted red;}
+.index-content {outline: 3px dotted blue;}
+.index-content-left {outline: 2px solid orange;}
+.index-content-right {outline: 2px solid orange;}
+.main-footer {outline: 2px dotted red;}
+.footer-contacts {outline: 3px dotted blue;}
+.footer-social {outline: 3px dotted blue;}
+.footer-copyright {outline: 3px dotted blue;}
+
+.nav {outline: 3px dotted blue;}
+.forms {outline: 3px dotted blue;}
+.art-gallery {outline: 3px dotted green;}
+article {outline: 3px dotted pink;}
+
+.prod-gallery {outline: 2px dotted red;}
+.definition {outline: 2px dotted orange;}
+
+ */
